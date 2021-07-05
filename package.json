@@ -1,0 +1,30 @@
+{
+  "name": "yt_example",
+  "version": "1.0.0",
+  "description": "Practica de API-REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carint/yt_example.git"
+  },
+  "author": "Carlos Interiano <carinthnd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carint/yt_example/issues"
+  },
+  "homepage": "https://github.com/Carint/yt_example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
